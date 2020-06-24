@@ -1,0 +1,201 @@
+/*basic startup start*/
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+
+body {
+    font-family: sans-serif, arial;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+img {
+    cursor: pointer;
+    border: 0;
+}
+
+p {
+    line-height: 150%;
+}
+
+.clear {
+    overflow: hidden;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+/*basic startup end*/
+/* header design start */
+/* navbar brand & social part design start */
+.header {
+    background-image: url(../img/home-banner.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.top-content {
+    padding-top: 20px;
+}
+
+.navbar-brand a {
+    font-family: 'Pacifico', cursive;
+    font-size: 40px;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.social-icon ul li {
+    width: 30px;
+    height: 30px;
+    background-color: #ffffff;
+    border-radius: 50%;
+    line-height: 30px;
+    text-align: center;
+}
+
+.social-icon ul {
+    padding-top: 14px;
+}
+
+.social-icon ul li a {
+    text-decoration: none;
+}
+
+.social-icon ul li a i {
+    color: #655b4f;
+}
+
+/* navbar brand & social part design end */
+.header-hr-bg {
+    background-color: #ffffff;
+}
+
+/* menu design start */
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-left: 0;
+}
+
+.full-navbar {
+    padding-left: 0;
+}
+
+.menu ul li {
+    padding-right: 28px;
+}
+
+.menu ul li a {
+    color: #ffffff !important;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+}
+
+.menu ul li.active a {
+    color: #87b672 !important;
+}
+
+.btn-search {
+    color: #ffffff;
+}
+
+.btn-search:hover {
+    color: #87b672;
+}
+
+/* menu design end */
+/* slider design start */
+.slider-content {
+    padding: 120px 0 140px 0;
+    color: #ffffff;
+}
+
+.slider-content h1 {
+    font-size: 36px;
+    font-family: 'Poppins', sans-serif;
+    text-transform: uppercase;
+}
+
+.d-bg {
+    color: #87b672;
+}
+
+.slider-content p {
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    margin-bottom: 40px;
+}
+
+.slider-btn {
+    background: transparent;
+    border: 1px solid #ffffff;
+    border-radius: 0;
+    color: #ffffff;
+    text-transform: uppercase;
+    padding: 10px 25px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+}
+
+.slider-btn:hover {
+    color: #ffffff;
+}
+
+.carousel-indicators li {
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    transition: .5s;
+}
+
+.carousel-indicators li:hover {
+    transform: scale(1.5);
+}
+
+.carousel-indicators .active {
+    transform: scale(1.4);
+}
+
+.carousel-indicators {
+    bottom: 20px;
+}
+
+.carousel-control-next-icon {
+    background-image: none;
+}
+
+.carousel-control-prev-icon {
+    background-image: none;
+}
+
+.prev-icon i {
+    font-size: 35px;
+    position: absolute;
+    top: 29%;
+    left: -40%;
+}
+
+.next-icon i {
+    font-size: 35px;
+    position: absolute;
+    top: 29%;
+    right: -40%;
+}
+
+/* slider design end */
+/* header design end */
+/* font-family: 'Pacifico', cursive;
+font-family: 'Poppins', sans-serif; */
